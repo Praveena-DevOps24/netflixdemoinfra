@@ -7,7 +7,7 @@ resource "aws_instance" "one" {
   ami                    = "ami-0b6d9d3d33ba97d99"
   instance_type          = "c7i-flex.large"
   key_name               = "junks"
-  vpc_security_group_ids = ["sg-018e599ee2eb30e61"]
+  vpc_security_group_ids = ["sg-0639134117499cb73"]
   tags = {
     Name = var.instance_names[count.index]
   }
